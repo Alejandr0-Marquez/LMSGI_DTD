@@ -1,0 +1,2 @@
+<!ELEMENT joc (titol, companyia, plataforma, anyLlançament, personatge)>
+<!ELEMENT titol 
