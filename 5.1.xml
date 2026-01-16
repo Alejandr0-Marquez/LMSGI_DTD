@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libro SYSTEM "4.1.dtd">
+
+<cataleg_musica>
+  
+  <llista_artistes>
+    <artista id="ART001">
+      <nom>Rosalía</nom>
+      <pais>Espanya</pais>
+      <genere>Flamenc Urbà</genere>
+    </artista>
+    
+    <artista id="ART002">
+      <nom>Daft Punk</nom>
+      <pais>França</pais>
+    </artista>
+    
+    <artista id="ART003">
+      <nom>Beyoncé</nom>
+    </artista>
+  </llista_artistes>
+  
+  <llista_albumes>
+    <album id="ALB001">
+      <titol>El Mal Querer</titol>
+      <any>2018</any>
+      <artistes>
+        <artista_ref ref="ART001"/>
+      </artistes>
+    </album>
+    
+    <album id="ALB002">
+      <titol>Random Access Memories</titol>
+      <any>2013</any>
+      <artistes>
+        <artista_ref ref="ART002"/>
+      </artistes>
+    </album>
+    
+    <album id="ALB003">
+      <titol>Renaissance</titol>
+      <any>2022</any>
+      <artistes>
+        <artista_ref ref="ART003"/>
+      </artistes>
+    </album>
+  </llista_albumes>
+  
+  <llista_recomanacions_albumes>
+    <recomanacio ref="ALB001"/>
+    <recomanacio ref="ALB002"/>
+  </llista_recomanacions_albumes>
+  
+</cataleg_musica>
